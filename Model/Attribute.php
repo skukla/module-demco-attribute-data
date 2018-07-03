@@ -110,9 +110,6 @@ class Attribute
                 }
                 $data['attribute_set'] = explode("\n", $data['attribute_set']);
 
-                print_r($data);
-                die();
-
                 /** @var \Magento\Catalog\Model\ResourceModel\Eav\Attribute $attribute */
                 $attribute = $this->eavConfig->getAttribute('catalog_product', $data['attribute_code']);
                 if (!$attribute) {
@@ -172,7 +169,8 @@ class Attribute
     protected function getOption($attribute, $data)
     {
         $result = [];
-        $data['option'] = explode("\n", $data['option']);
+        //$data['option'] = explode("\n", $data['option']);
+        $data['option'] = explode("|", $data['option']);
         /** @var \Magento\Eav\Model\ResourceModel\Entity\Attribute\Option\Collection $options */
         $options = $this->attrOptionCollectionFactory->create()
             ->setAttributeFilter($attribute->getId())
