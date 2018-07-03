@@ -2,4 +2,4 @@ frontend_label,frontend_input,is_required,option,default,attribute_code,is_globa
 Product Name,text,0,,,demco_product_name,0,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco General
 ERP Category,text,0,,,demco_erp_category,0,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco General
 Availability,textarea,0,,,demco_availability,0,,0,,,0,0,0,0,0,0,,0,1,1,0,0,Demco General
-Table Style,select,0,2 Casters/2 Glides|4 Adjustable Glides|4 Casters,,demco_table_style,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco General
+Table Style,select,0,2 Casters/2 Glides|4 Adjustable Glides|4 Casters,,demco_table_style,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco General|Demco Tables
