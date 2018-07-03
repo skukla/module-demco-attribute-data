@@ -1,0 +1,16 @@
+{
+    "name": "zt/module-demco-attribute-data",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "firegento/fastsimpleimport": "dev-updated"
+        },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ZT\\DemcoAttributeData\\": ""
+        }
+    }
+}
