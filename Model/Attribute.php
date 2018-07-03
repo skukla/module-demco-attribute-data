@@ -108,8 +108,8 @@ class Attribute
                 foreach ($row as $key => $value) {
                     $data[$header[$key]] = $value;
                 }
-                $data['attribute_set'] = explode("\n", $data['attribute_set']);
-                //$data['attribute_set'] = explode("|", $data['attribute_set']);
+                $data['attribute_set'] = explode("|", $data['attribute_set']);
+                //$data['attribute_set'] = explode("\n", $data['attribute_set']);
 
                 /** @var \Magento\Catalog\Model\ResourceModel\Eav\Attribute $attribute */
                 $attribute = $this->eavConfig->getAttribute('catalog_product', $data['attribute_code']);
@@ -117,8 +117,8 @@ class Attribute
                     $attribute = $this->attributeFactory->create();
                 }
 
-                //$frontendLabel = explode("|", $data['frontend_label']);
-                $frontendLabel = explode("\n", $data['frontend_label']);
+                $frontendLabel = explode("|", $data['frontend_label']);
+                //$frontendLabel = explode("\n", $data['frontend_label']);
                 if (count($frontendLabel) > 1) {
                     $data['frontend_label'] = [];
                     $data['frontend_label'][\Magento\Store\Model\Store::DEFAULT_STORE_ID] = $frontendLabel[0];
@@ -171,8 +171,8 @@ class Attribute
     protected function getOption($attribute, $data)
     {
         $result = [];
-        //$data['option'] = explode("\n", $data['option']);
         $data['option'] = explode("|", $data['option']);
+        //$data['option'] = explode("\n", $data['option']);
         /** @var \Magento\Eav\Model\ResourceModel\Entity\Attribute\Option\Collection $options */
         $options = $this->attrOptionCollectionFactory->create()
             ->setAttributeFilter($attribute->getId())
