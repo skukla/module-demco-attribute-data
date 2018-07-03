@@ -110,6 +110,9 @@ class Attribute
                 }
                 $data['attribute_set'] = explode("\n", $data['attribute_set']);
 
+                print_r($data);
+                die();
+
                 /** @var \Magento\Catalog\Model\ResourceModel\Eav\Attribute $attribute */
                 $attribute = $this->eavConfig->getAttribute('catalog_product', $data['attribute_code']);
                 if (!$attribute) {
