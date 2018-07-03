@@ -6,7 +6,7 @@ Table Style,select,0,2 Casters/2 Glides|4 Adjustable Glides|4 Casters,,demco_tab
 Table Height,select,0,"25"" H|27"" H|29"" H",,demco_table_height,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Furniture
 Chair Color,select,0,Black|Blue|Green|Orange|Red|Silver|White|Yellow,,demco_chair_color,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Furniture
 Book Support Size,select,0,"Oversize: 8-3/4""H x 5-1/2""W x 7-1/4""D|Standard: 5-1/2""H x 4-3/4""W x 5-1/3""D",,demco_book_support_size,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Library Supplies
-Book Support Base Material,select,0,Cork|Foam|Magnetic|Plain|Rubber,,demco_book_support_base_material,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Library Supplies
+Book Support Base Material,select,0,Cork|Foam|Magnetic|Plain|Rubber,,demco_book_support_base_mat,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Library Supplies
 Book Support Color,select,0,Bahama Blue|Black|Burgundy|Cardinal Red|Dublin Green|Gray|Ivory|Lilac|Orange Zest|Royal Blue|Spruce|Sun Drop|Tan,,demco_book_support_color,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Library Supplies
 Shelving Configuration,select,0,Add-on|Starter,,demco_shelving_configuration,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Shelving
 Shelf Size,select,0,"42""H; 3 Shelves, 2 adj.|48""H; 3 Shelves, 2 adj.|60""H; 4 Shelves, 3 adj.|72""H; 5 Shelves, 4 adj.|82""H; 6 Shelves, 5 adj.",,demco_shelf_size,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Shelving
