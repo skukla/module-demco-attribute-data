@@ -1,0 +1,15 @@
+frontend_label,frontend_input,is_required,option,default,attribute_code,is_global,default_value_text,default_value_yesno,default_value_date,default_value_textarea,is_unique,is_searchable,is_visible_in_advanced_search,is_comparable,is_filterable,is_filterable_in_search,position,is_used_for_promo_rules,is_html_allowed_on_front,is_visible_on_front,used_in_product_listing,used_for_sort_by,attribute_set
+Product Name,text,0,,,demco_product_name,0,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco General|Demco Furniture|Demco Library Supplies|Demco Shelving|Demco Labels
+ERP Category,text,0,,,demco_erp_category,0,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco General|Demco Furniture|Demco Library Supplies|Demco Shelving|Demco Labels
+Availability,textarea,0,,,demco_availability,0,,0,,,0,0,0,0,0,0,,0,1,1,0,0,Demco General|Demco Furniture|Demco Library Supplies|Demco Shelving|Demco Labels
+Table Style,select,0,2 Casters/2 Glides|4 Adjustable Glides|4 Casters,,demco_table_style,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Furniture
+Table Height,select,0,"25"" H|27"" H|29"" H",,demco_table_height,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Furniture
+Chair Color,select,0,Black|Blue|Green|Orange|Red|Silver|White|Yellow,,demco_chair_color,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Furniture
+Book Support Size,select,0,"Oversize: 8-3/4""H x 5-1/2""W x 7-1/4""D|Standard: 5-1/2""H x 4-3/4""W x 5-1/3""D",,demco_book_support_size,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Library Supplies
+Book Support Base Material,select,0,Cork|Foam|Magnetic|Plain|Rubber,,demco_book_support_base_mat,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Library Supplies
+Book Support Color,select,0,Bahama Blue|Black|Burgundy|Cardinal Red|Dublin Green|Gray|Ivory|Lilac|Orange Zest|Royal Blue|Spruce|Sun Drop|Tan,,demco_book_support_color,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Library Supplies
+Shelving Configuration,select,0,Add-on|Starter,,demco_shelving_configuration,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Shelving
+Shelf Size,select,0,"42""H; 3 Shelves, 2 adj.|48""H; 3 Shelves, 2 adj.|60""H; 4 Shelves, 3 adj.|72""H; 5 Shelves, 4 adj.|82""H; 6 Shelves, 5 adj.",,demco_shelf_size,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Shelving
+Shelf Depth,select,0,"10""W|12""W",,demco_shelf_depth,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Shelving
+Label Finish,select,0,"Flourescent Yellow, Matte|Full Color, Glossy|Full Color, Matte",,demco_label_finish,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Labels
+Label Position,select,0,Centered|Flush Left|N/A,,demco_label_position,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,Demco Labels
